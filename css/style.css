@@ -1,0 +1,34 @@
+body {
+	text-align: center;
+}
+
+.bottom-bar {
+	bottom: 0;
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.link-bar {
+    border: 1px solid #d1d1d1;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.about {
+	margin-top: 5%;
+}
+
+.link {
+	text-decoration: none;
+	margin: 1%;
+}
+
+.image {
+	width: 1.5em;
+	height: 1.5em;
+}
+
