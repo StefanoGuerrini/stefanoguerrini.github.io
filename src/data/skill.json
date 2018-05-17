@@ -1,0 +1,42 @@
+{
+	"skills": [
+		{
+			"title": "I'm comfortable with:",
+			"technologies":[
+				{
+					"name" : "Java",
+					"logo": "/static/images/tech/java.png"
+				},
+				{
+					"name" : "Spring",
+					"logo": "/static/images/tech/spring.png"
+				},
+				{
+					"name" : "Docker",
+					"logo": "/static/images/tech/docker.png"
+				},
+				{
+					"name" : "IntelliJ",
+					"logo": "/static/images/tech/intellij.png"
+				}
+			]
+		},
+		{
+			"title": "I'm studying:",
+			"technologies":[
+				{
+					"name" : "Go",
+					"logo": "/static/images/tech/go.png"
+				},
+				{
+					"name" : "Vue.js",
+					"logo": "/static/images/tech/vuejs.png"
+				},
+				{
+					"name" : "Kotlin",
+					"logo": "/static/images/tech/kotlin.png"
+				}
+			]
+		}
+	]
+}
