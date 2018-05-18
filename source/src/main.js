@@ -30,16 +30,15 @@ Vue.filter('getYears', function (startDate, endDate) {
 	var months = moment.duration(end.diff(start)).months();
 	var days = moment.duration(end.diff(start)).days();
 	
-	var result;
+	var result ='';
 	if (years!=0){
-		result=years+' years';
-		if (months!=0) {
-			result=result+' '+months+' months';
-		}
-	} else if (months!=0){
-		result=months+' months';
-	} else {
-		result=days+' days'
+		result=years+' years ';
+	}
+	if (months!=0){
+		result=result+months+' months ';
+	}
+	if (days!=0) {
+		result=result+days+' days ';
 	}
 
 	return result;
