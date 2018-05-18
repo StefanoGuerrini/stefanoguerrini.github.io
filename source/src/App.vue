@@ -33,6 +33,7 @@ export default {
 <style>
 
   .app {
+    display: flex;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
@@ -40,7 +41,7 @@ export default {
   }
 
   .content {
-    display: flex;
+    display: contents;
     justify-content: space-between;
     height: 80vh;
     align-items: center;
@@ -58,7 +59,12 @@ export default {
     border-left-color: #2c3e50;
   }
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1030px) {
+
+    .app {
+      display: flow-root;
+    }
+
     .content {
       width: 100%;
       flex-direction: column;
@@ -83,13 +89,13 @@ export default {
       border-bottom: 2px;
       border-bottom-style: dashed;
       border-bottom-color: #2c3e50;
-      padding-top: 14%;
+      padding-top: 10%;
       padding-bottom: 10%;
     }
   }
 
   @media screen and (max-heigt: 1030px) {
-    padding-top: 30%;
+    
 
   }
   
