@@ -7,12 +7,13 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "node build/build.js",
-    "deploy": "node ./node_modules/vue-gh-pages/index.js"
+    "build": "node build/build.js"
   },
   "wst": "/dist/",
   "dependencies": {
+    "copy": "^0.3.2",
     "moment": "^2.22.1",
+    "mv": "^2.1.1",
     "vue": "^2.5.2",
     "vuex": "^3.0.1"
   },
@@ -46,7 +47,6 @@
     "shelljs": "^0.7.6",
     "uglifyjs-webpack-plugin": "^1.1.1",
     "url-loader": "^0.5.8",
-    "vue-gh-pages": "^1.16.0",
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
