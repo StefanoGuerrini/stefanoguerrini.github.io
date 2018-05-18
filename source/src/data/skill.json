@@ -18,6 +18,10 @@
 				{
 					"name" : "IntelliJ",
 					"logo": "/static/images/tech/intellij.png"
+				},
+				{
+					"name" : "Git",
+					"logo": "/static/images/tech/git.png"
 				}
 			]
 		},

@@ -58,7 +58,7 @@ export default {
     border-left-color: #2c3e50;
   }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 850px) {
     .content {
       width: 100%;
       flex-direction: column;
