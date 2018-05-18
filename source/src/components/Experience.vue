@@ -11,6 +11,7 @@
               <p>{{experience.start_date | formatDate}} - {{experience.end_date | formatDate}} 
               | {{experience.start_date | getYears(experience.end_date)}}</p>
               <p>{{experience.role}} • <b>{{experience.company_name}}</b> • {{experience.location}}</p>
+              <p><small>{{experience.industry}}</small></p>
               <p><i>{{experience.technologies}}</i></p>
             </div>
           </div>

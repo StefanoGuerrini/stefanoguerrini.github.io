@@ -8,7 +8,8 @@
 			"role": "Backend Developer",
 			"start_date": "2017/11/2",
 			"end_date": "Present",
-			"technologies": "Java, Spring Boot, Docker."
+			"technologies": "Java, Spring Boot, Docker.",
+			"industry": "Marketing Technology"
 		},
 		{
 			"company_name" : "Objectway",
@@ -17,7 +18,8 @@
 			"role": "Junior Developer",
 			"start_date": "2015/11/16",
 			"end_date": "2017/10/28",
-			"technologies": "Java, JSP, JSF, MyBatis, Hibernate, Spring MVC, Mercurial, Jira."
+			"technologies": "Java, JSP, JSF, MyBatis, Hibernate, Spring MVC, Mercurial, Jira.",
+			"industry": "Fintech"
 		},
 		{
 			"company_name" : "Consoft Sistemi",
@@ -26,7 +28,8 @@
 			"role": "Junior Developer",
 			"start_date": "2015/5/4",
 			"end_date": "2015/10/30",
-			"technologies": "Java, JSP, Liferay, Alfresco."
+			"technologies": "Java, JSP, Liferay, Alfresco.",
+			"industry":""
 		}
 	]
 }
