@@ -62,7 +62,7 @@ export default {
   @media screen and (max-width: 1030px) {
 
     .app {
-      display: flow-root;
+      flex-direction: column;
     }
 
     .content {
