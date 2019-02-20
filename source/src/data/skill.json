@@ -31,14 +31,6 @@
 				{
 					"name" : "Go",
 					"logo": "/static/images/tech/go.png"
-				},
-				{
-					"name" : "Vue.js",
-					"logo": "/static/images/tech/vuejs.png"
-				},
-				{
-					"name" : "Kotlin",
-					"logo": "/static/images/tech/kotlin.png"
 				}
 			]
 		}
