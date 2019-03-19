@@ -2,6 +2,7 @@
 
 ### Push changes
 ``` bash
+# into source folder
 sudo chmod +x deploy.sh
 sudo ./deploy.sh "commit message here"
 ```
