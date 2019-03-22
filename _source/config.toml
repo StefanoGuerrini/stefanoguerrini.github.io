@@ -47,6 +47,11 @@ googleAnalytics = "UA-120827713-1"
     weight = 5
     url = "https://stackoverflow.com/users/5002696"
 [[params.social]]
+    name = "Goodreads"
+    icon = "fab fa-goodreads fa-2x"
+    weight = 5
+    url = "https://www.goodreads.com/stefanoguerrini" 
+[[params.social]]
     name = "Contact"
     icon = "far fa-envelope fa-2x"
     weight = 5
