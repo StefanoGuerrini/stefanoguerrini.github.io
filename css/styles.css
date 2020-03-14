@@ -91,5 +91,9 @@ body {
   .centered {
 	width: 80%;
   }
+
+  .div-about {
+	margin-bottom: 5%;
+}
 }
 
