@@ -13,7 +13,10 @@
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-family: 'JetBrains Mono';
+      box-sizing: border-box;
 }
+
+
 
 body {
 	margin: 0;
@@ -75,5 +78,18 @@ body {
 
 .list > li > a > i {
 	font-size: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .div-bordered {
+	border: none;
+    padding: 0; 
+    margin-bottom: 0;   
+  }
+
+  .centered {
+	width: 80%;
+  }
 }
 
