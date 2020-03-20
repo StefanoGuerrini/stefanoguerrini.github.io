@@ -98,11 +98,30 @@ body {
     margin-bottom: 0;   
   }
 
-  .centered {
+  .div-centered {
     width: 80%;
   }
 
   .div-about {
     margin-bottom: 5%;
+  }
+}
+
+@media only screen and (max-height: 350px) {
+  
+  .container {
+    overflow: scroll;
+    height: auto;
+    margin-top: 2em;
+  }
+
+  .div-bordered {
+    border: none;
+    padding: 0; 
+    margin-bottom: 0;   
+  }
+
+  .top-border {
+    display: none;
   }
 }
