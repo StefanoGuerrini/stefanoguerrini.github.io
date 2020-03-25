@@ -1,0 +1,84 @@
+@font-face{
+    font-family: 'JetBrains Mono';
+    src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/eot/JetBrainsMono-Regular.eot') format('embedded-opentype'),
+         url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/woff/JetBrainsMono-Regular.woff') format('woff'),
+         url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    -webkit-font-feature-settings: "liga" on, "calt" on;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: 'JetBrains Mono';
+    box-sizing: border-box;
+}
+
+* { 
+    width: 100%;
+    padding: 0; 
+    margin: 0; 
+}
+
+pre, p {
+    overflow-x: scroll;
+}
+
+html, body {
+    min-height: 100% !important;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    padding: 1em;
+    padding-top: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding: 10px 1%;
+}
+
+.top-border {
+    border: 8px solid black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3em;
+}
+
+.posts {
+    width: 60%;
+}
+
+.post-title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.1em;
+}
+
+.post-date {
+    margin: 0;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 900px) {
+    .posts {
+        width: 100%;
+    }
+}
