@@ -42,17 +42,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 40%;
 }
 
 .div-centered {
   width: 60%;
-}
-
-.div-bordered {
-	border: 4px solid black;
-  padding: 3%; 
-  margin-bottom: 1%;   
 }
 
 .div-about > h2 {
@@ -79,8 +73,6 @@ body {
 .list > li {
   display: inline-block;
   *display: inline;
-  zoom: 1;
-  padding: 10px 1%;
 }
 
 .list > li > a {
@@ -88,16 +80,10 @@ body {
 }
 
 .list > li > a > i {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 @media only screen and (max-width: 600px) {
-
-  .div-bordered {
-    border: none;
-    padding: 0; 
-    margin-bottom: 0;   
-  }
 
   .div-centered {
     width: 80%;
@@ -114,12 +100,6 @@ body {
     overflow: scroll;
     height: auto;
     margin-top: 2em;
-  }
-
-  .div-bordered {
-    border: none;
-    padding: 0; 
-    margin-bottom: 0;   
   }
 
   .top-border {
