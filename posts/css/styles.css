@@ -1,5 +1,9 @@
 @font-face{
   font-family: 'JetBrains Mono';
+  src:  url('../../vendor/jetbrains-mono-1.0.3/web/eot/JetBrainsMono-Regular.eot') format('embedded-opentype'),
+        url('../../vendor/jetbrains-mono-1.0.3/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+        url('../../vendor/jetbrains-mono-1.0.3/web/woff/JetBrainsMono-Regular.woff') format('woff'),
+        url('../../vendor/jetbrains-mono-1.0.3/ttf/JetBrainsMono-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -8,6 +12,8 @@
 * {
   -webkit-font-feature-settings: "liga" on, "calt" on;
   -webkit-font-smoothing: antialiased;
+  font-feature-settings: "liga" on, "calt" on;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-family: 'JetBrains Mono';
   box-sizing: border-box;
@@ -77,6 +83,15 @@ h2 {
 
 .posts-list {
     width: 50%;
+}
+
+.post-link {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.post-link > li > h3 > a{
+    text-decoration: none;
 }
 
 .post {
