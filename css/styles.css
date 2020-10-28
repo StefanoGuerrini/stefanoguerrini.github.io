@@ -12,12 +12,15 @@
 * {
   -webkit-font-feature-settings: "liga" on, "calt" on;
   -webkit-font-smoothing: antialiased;
+  font-feature-settings: "liga" on, "calt" on;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-family: 'JetBrains Mono';
   box-sizing: border-box;
   padding: 0; 
   margin: 0; 
   word-spacing: 3px;
+  line-height: 1.7;
   background: var(--bg-color);
   color: var(--font-color);
 }
@@ -72,6 +75,8 @@ mark {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  margin-left: 0.5px;
+  word-spacing: 30px;
 }
 
 .list > li {
@@ -84,7 +89,7 @@ mark {
 }
 
 .list > li > a > i {
-	font-size: 15px;
+	font-size: 20px;
 }
 
 @media only screen and (max-width: 600px) {
