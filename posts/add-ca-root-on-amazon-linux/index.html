@@ -10,8 +10,6 @@
 </head>
 
 <body>
-    <div class=top-border>
-    </div>
 
     <div class=container>
         <div class="post">
@@ -19,8 +17,8 @@
             <h3 class="post-title">Add CA Root on Amazon Linux</h3>
             <div class=post-text>
                 <p>In this days I faced with an issue on a EC2 with Amazon Linux related to a CA Root.<br />
-Was impossible execute <code>docker pull</code> from our private registry, the error appear was: <code>x509: certificate signed by unknown authority</code>.<br />
-The Certficate Authority used by registry was recently changed and wasn't trusted by os.<br />
+Was impossible execute <code>docker pull</code> from our private registry, the error appear was: <code>x509: certificate signed by unknown authority</code>.</p>
+<p>The Certficate Authority used by registry was recently changed and wasn't trusted by os.<br />
 Solution has been to add the CA Root inside <code>/etc/pki/ca-trust/source/anchors/</code> then run <code>update-ca-trust</code> and all worked after Docker restarting.</p>
 <p><strong>Lesson learned:</strong> Choose carefully your next CA.</p>
 

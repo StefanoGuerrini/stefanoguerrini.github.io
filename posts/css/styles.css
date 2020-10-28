@@ -1,36 +1,42 @@
 @font-face{
-    font-family: 'JetBrains Mono';
-    src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/eot/JetBrainsMono-Regular.eot') format('embedded-opentype'),
-         url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
-         url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/woff/JetBrainsMono-Regular.woff') format('woff'),
-         url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/ttf/JetBrainsMono-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'JetBrains Mono';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
-    -webkit-font-feature-settings: "liga" on, "calt" on;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    font-family: 'JetBrains Mono';
-    box-sizing: border-box;
+  -webkit-font-feature-settings: "liga" on, "calt" on;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: 'JetBrains Mono';
+  box-sizing: border-box;
+  background: var(--bg-color);
+  color: var(--font-color);
 }
 
-* { 
-    width: 100%;
-    padding: 0; 
-    margin: 0;
-    color: #000000
+:root {
+  --bg-color: #fffef5;
+  --cb-color: #000000;
 }
 
-pre, p {
-    overflow-x: scroll;
+code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
 }
 
 html, body {
-    min-height: 100% !important;
-    height: 100%;
+  min-height: 100% !important;
+  height: 100%;
 }
+
+pre, p {
+    word-spacing: 3px;
+    line-height: 1.8;
+}
+
 
 body {
     margin: 0;
@@ -86,6 +92,7 @@ h2 {
 
 .post-date {
     margin: 0;
+    margin-bottom: 0.5%;
     font-weight: normal;
 }
 
