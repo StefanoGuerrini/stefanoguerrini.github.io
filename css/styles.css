@@ -112,3 +112,47 @@ mark {
   }
 
 }
+
+@media only screen and (max-width: 768px) {
+  .social-overlay {
+    position: fixed !important;
+    bottom: 1rem !important;
+    right: 1rem !important;
+    background: rgba(255, 255, 255, 0.95) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 12px !important;
+    z-index: 9999 !important;
+
+    display: flex !important;
+    gap: 1rem !important;
+    align-items: center !important;
+  }
+
+  .social-overlay .list {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    gap: 1rem !important;
+  }
+
+  .social-overlay li {
+    list-style: none !important;
+    margin: 0 !important;
+  }
+
+  .social-overlay a {
+    color: var(--cb-color) !important;
+    font-size: 1.4rem !important;
+    text-decoration: none !important;
+  }
+
+  .social-overlay a:hover,
+  .social-overlay a:focus {
+    color: #0073e6 !important;
+  }
+
+  .div-about {
+    padding-bottom: 5em; 
+  }
+}
